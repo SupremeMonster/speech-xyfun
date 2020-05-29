@@ -1,0 +1,2 @@
+E:\audio_ai\DemoConsoleApplication1\Debug\DemoConsoleApplication1.exe
+E:\audio_ai\DemoConsoleApplication1\Debug\DemoConsoleApplication1.pdb

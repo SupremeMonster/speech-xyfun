@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="demo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\全部sdk\samples\asr_offline_record_sample\winrec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="micro.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="speech_recognizer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{31a38a80-0a87-4998-897c-8acd2bc71039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{41e3b9d6-50b1-4b35-bfd9-9ad6b5e33d58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\speech_recognizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\全部sdk\samples\asr_offline_record_sample\include\winrec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="micro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

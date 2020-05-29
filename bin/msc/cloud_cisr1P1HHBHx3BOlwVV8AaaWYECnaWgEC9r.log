@@ -1,0 +1,137 @@
+============================================================
+Time  2020/05/20 14:10:16 065 
+============================================================
+[2020/05/20 14:10:16 065] isr_1conn  2226 SYS_MSG_LOAD_CLOUD  
+[2020/05/20 14:10:16 065] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(29dcea8) 
+[2020/05/20 14:10:16 065] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   cloud_rslt_cb  param1 =  func(29dd3e8) 
+[2020/05/20 14:10:16 065] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   cloud_err_cb  param1 =  func(29dd4e8) 
+[2020/05/20 14:10:16 066] isr_1conn  2247 SYS_MSG_REGCB_CLOUD param0 =   cloud_status_cb  param1 =  func(29dcee8) 
+[2020/05/20 14:10:16 066] isr_1conn  1411 onesoc  
+[2020/05/20 14:10:16 066] isr_1conn  1412 ASR_CLOUD_MSG_SSB  
+[2020/05/20 14:10:16 066] isr_1conn  1427 isr_1conn  cloud_cisr1P1HHBHx3BOlwVV8AaaWYECnaWgEC9r  268436457  1552301827  
+[2020/05/20 14:10:16 066] isr_1conn  1497 req_lgi_id =  nil  
+[2020/05/20 14:10:16 066] isr_1conn  1498 not login!  
+[2020/05/20 14:10:16 068] isr_1conn  1631 nil  
+[2020/05/20 14:10:16 068] isr_1conn  1697 speex-wb  
+[2020/05/20 14:10:16 068] isr_1conn  1785 net_once_bytes  nil  
+[2020/05/20 14:10:16 068] isr_1conn  1790 need_encode  true  
+[2020/05/20 14:10:16 068] isr_1conn  1792 once bytes  122  
+[2020/05/20 14:10:16 069] isr_1conn  1816 User set url is   nil  
+[2020/05/20 14:10:16 069] config     91   select default  
+[2020/05/20 14:10:16 069] config     113  use general cloud  
+[2020/05/20 14:10:16 069] transport  645  paramkvsport is   nil  
+[2020/05/20 14:10:16 069] transport  657  ns_enable=  1  
+[2020/05/20 14:10:16 069] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2020/05/20 14:10:16 069] transport  665  net.nettype=  unknown  
+[2020/05/20 14:10:16 069] transport  675  url.full=  nil  
+[2020/05/20 14:10:16 069] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2020/05/20 14:10:16 069] transport  907  net type:  unknown  
+[2020/05/20 14:10:16 069] transport  908  net operator:  def  
+[2020/05/20 14:10:16 069] transport  909  use proxy:  false  
+[2020/05/20 14:10:16 069] transport  1105 session.domain=  open.xf-yun.com  
+[2020/05/20 14:10:16 069] transport  1106 url.host=  open.xf-yun.com  
+[2020/05/20 14:10:16 071] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2020/05/20 14:10:16 071] transport  1159 using cached ip:  42.62.116.35  
+[2020/05/20 14:10:16 071] transport  1179 try preferred port:  1028  
+[2020/05/20 14:10:16 071] transport  1083 NAMESERVER START  
+[2020/05/20 14:10:16 071] transport  1086 name =   iat  
+[2020/05/20 14:10:16 071] ns         634  ntt=  unknown  
+[2020/05/20 14:10:16 071] transport  1089 trans,ns_inprog =  0  
+[2020/05/20 14:10:16 072] ns         582  name server start  
+[2020/05/20 14:10:16 072] ns         588  ns_sub =   iat  
+[2020/05/20 14:10:16 072] ns         596  ns_host =   open.xf-yun.com  
+[2020/05/20 14:10:16 072] ns         475  ns_host=  open.xf-yun.com  
+[2020/05/20 14:10:16 072] ns         555  net_type =  standard  
+[2020/05/20 14:10:16 072] ns         556  cmwapascmnet =  
+[2020/05/20 14:10:16 072] ns         557  uniwapasuninet =  
+[2020/05/20 14:10:16 072] ns         558  ctwapasctnet =  
+[2020/05/20 14:10:16 072] ns         576  host=  hdns.xf-yun.com  
+[2020/05/20 14:10:16 072] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2020/05/20 14:10:16 072] transport  1304 [soc] connect   42.62.116.35  1028  
+[2020/05/20 14:10:16 072] transport  1316 mspsoc.open,prot_type=  tcp  
+[2020/05/20 14:10:16 099] network    245  dns resp  0  ns1  
+[2020/05/20 14:10:16 099] ns         422  ns dns ok  42.62.116.34  
+[2020/05/20 14:10:16 099] ns         209  ip front is  42.62.116  
+[2020/05/20 14:10:16 099] ns         429  is_voicecloud_ip=  1  
+[2020/05/20 14:10:16 099] ns         436  ip_is_expected=  true  
+[2020/05/20 14:10:16 099] ns         444  ip_is_expected=  true  
+[2020/05/20 14:10:16 099] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2020/05/20 14:10:16 101] network    465  prot_type  tcp  
+[2020/05/20 14:10:16 121] transport  473  [soc] [1] connected  
+[2020/05/20 14:10:16 121] isr_1conn  367  transport connect ok  
+[2020/05/20 14:10:16 121] isr_1conn  1118 send ssb request  
+[2020/05/20 14:10:16 121] isr_1conn  833  lver:  nil  
+[2020/05/20 14:10:16 121] isr_1conn  838  cfg_ver:  nil  
+[2020/05/20 14:10:16 121] isr_1conn  859  send_lgi_auth_id =  nil  
+[2020/05/20 14:10:16 121] transport  1860 transport_obj.send | in  
+[2020/05/20 14:10:16 121] transport  1866 self.msg_flag_q  table(36f74d0) 
+[2020/05/20 14:10:16 121] transport  1867 self.msg_q  table(36f7530) 
+[2020/05/20 14:10:16 121] transport  1799 transport_obj.try2send | in  
+[2020/05/20 14:10:16 121] transport  1800 self.soc  udata(29cff40) 
+[2020/05/20 14:10:16 121] transport  1801 self.connected  false  
+[2020/05/20 14:10:16 121] transport  1802 self.latesterr  0  
+[2020/05/20 14:10:16 121] transport  1873 transport_obj.send | out  
+[2020/05/20 14:10:16 121] transport  1799 transport_obj.try2send | in  
+[2020/05/20 14:10:16 121] transport  1800 self.soc  udata(29cff40) 
+[2020/05/20 14:10:16 121] transport  1801 self.connected  true  
+[2020/05/20 14:10:16 121] transport  1802 self.latesterr  0  
+[2020/05/20 14:10:16 121] transport  1819 transport:try2send,#msg_q=  1  
+[2020/05/20 14:10:16 121] transport  1359 build http request.  
+[2020/05/20 14:10:16 121] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: iat
+X-Par: ver=MSSP+0%2E9&sub=iat&cmd=ssb&ssm=1&auf=audio%2FL16%3Brate%3D16000&cver=5%2E0%2E42%2E1226&net%5Ftype=unknown&csid=cisr1P1HHBHx3BOlwVV8AaaWYECnaWgEC9r&key=0c4G4KJ85svIzMdql/xcE/BQ==
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 339
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+∑Ê™Œ
+âê©òÅx{z  
+[2020/05/20 14:10:16 122] transport  1819 transport:try2send,#msg_q=  0  
+[2020/05/20 14:10:16 122] transport  482  [soc] [1] send ok  631  
+[2020/05/20 14:10:16 122] transport  1799 transport_obj.try2send | in  
+[2020/05/20 14:10:16 122] transport  1800 self.soc  udata(29cff40) 
+[2020/05/20 14:10:16 122] transport  1801 self.connected  true  
+[2020/05/20 14:10:16 124] transport  1802 self.latesterr  0  
+[2020/05/20 14:10:16 124] transport  1819 transport:try2send,#msg_q=  0  
+[2020/05/20 14:10:16 150] network    350  connected  ns2  
+[2020/05/20 14:10:16 151] network    353  send ok  268  ns2  
+[2020/05/20 14:10:16 161] transport  494  [soc] [1] readable  
+[2020/05/20 14:10:16 161] transport  1767 HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 1
+X-Par: ver=MSSP+0%2E9&ret=10303&cver=5%2E0%2E42%2E1226&key=0dWfHC8zCUF^XUauU5nH9/fYD1u8MQe2OQqMlwE67E1RWcacJAk0EnHfNjkseZRKr5
+X-Req-Date: 2020/05/20 14:10:14 508
+CL: 1
+X-Res-Date: 2020/05/20 14:10:14 517
+
+0  
+[2020/05/20 14:10:16 161] transport  1494 a_complete_httpmessage  200  
+[2020/05/20 14:10:16 161] transport  1604 is_update  true  
+[2020/05/20 14:10:16 161] isr_1conn  399  [trans] [isr_1conncisr1P1HHBHx3BOlwVV8AaaWYECnaWgEC9r] readable  
+[2020/05/20 14:10:16 161] isr_1conn  438  MSS:bad response:10303  
+[2020/05/20 14:10:16 161] isr_1conn  441  bad sid =   iat000138ee@dx17230b42f6c6f29762  
+[2020/05/20 14:10:16 181] network    362  readable  ns2  
+[2020/05/20 14:10:16 181] network    366  HTTP/1.1 200 OK
+Date: Wed, 20 May 2020 06:10:14 GMT
+Content-Type: application/json
+Content-Length: 310
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"iat","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"},{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"iat","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2020/05/20 14:10:16 183] ns         253  name server http resp  0  
+[2020/05/20 14:10:16 183] ns         266  ns response OK for this time!  
+[2020/05/20 14:10:16 183] ns         277  from_server=  iflytek/hdns  
+[2020/05/20 14:10:16 183] ns         360  compel :  0  
+[2020/05/20 14:10:16 183] transport  1063 ns_ip =   42.62.116.35  
+[2020/05/20 14:10:16 184] transport  1064 ip_type =  assigned_iatopen.xf-yun.com_host  
+[2020/05/20 14:10:16 184] ns         670  no data in ns_q  
+[2020/05/20 14:10:16 184] ns         671  conti_ns,ns_inprog =   1  
+[2020/05/20 14:10:16 299] isr_1conn  2052 ASR_CLOUD_MSG_SSE  
+[2020/05/20 14:10:16 299] isr_1conn  1276 isr_1conn session info  
+[2020/05/20 14:10:16 301] isr_1conn  2195 session finished! ret =   10303  

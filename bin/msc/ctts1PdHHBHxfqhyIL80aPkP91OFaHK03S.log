@@ -1,0 +1,38 @@
+============================================================
+Time  2020/05/28 11:26:15 285 
+============================================================
+[2020/05/28 11:26:15 285] tts        811  SYS_MSG_REGCB param0 =  msp_status_cb  param1 =  func(28d8cd0) 
+[2020/05/28 11:26:15 288] config     43   use general cloud  
+[2020/05/28 11:26:15 289] tts_cloud  1438 SYS_MSG_REGCB_CLOUD param0 =   msp_status_cb  param1 =  func(28d8cd0) 
+[2020/05/28 11:26:15 290] tts        782  TTS_MSG_SSB  
+[2020/05/28 11:26:15 290] tts        434  params =  voice_name = xiaoyan, text_encoding = gb2312, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2  
+[2020/05/28 11:26:15 290] tts        273  auf=audio/L16;rate=16000  
+[2020/05/28 11:26:15 290] tts        273  auf=audio/L16;rate=16000  
+[2020/05/28 11:26:15 290] tts        475  ssb|use cloud  
+[2020/05/28 11:26:15 292] tts_cloud  1409 SYS_MSG_LOAD_CLOUD  
+[2020/05/28 11:26:15 292] tts_cloud  964  TTS_MSG_SSB_CLOUD  
+[2020/05/28 11:26:15 292] tts_cloud  987  tts  ctts1PdHHBHxfqhyIL80aPkP91OFaHK03S  268436457  1552301830  
+[2020/05/28 11:26:15 292] tts_cloud  1164 need_decode  true  
+[2020/05/28 11:26:15 292] tts_cloud  1165 aue=  speex-wb;7   auf=  audio/L16;rate=16000  
+[2020/05/28 11:26:15 292] tts_cloud  1187 User set url is   nil  
+[2020/05/28 11:26:15 292] config     91   select default  
+[2020/05/28 11:26:15 292] config     113  use general cloud  
+[2020/05/28 11:26:15 292] transport  645  paramkvsport is   nil  
+[2020/05/28 11:26:15 292] transport  657  ns_enable=  1  
+[2020/05/28 11:26:15 292] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2020/05/28 11:26:15 293] transport  665  net.nettype=  unknown  
+[2020/05/28 11:26:15 293] transport  675  url.full=  nil  
+[2020/05/28 11:26:15 293] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2020/05/28 11:26:15 293] transport  907  net type:  unknown  
+[2020/05/28 11:26:15 293] transport  908  net operator:  def  
+[2020/05/28 11:26:15 293] transport  909  use proxy:  false  
+[2020/05/28 11:26:15 293] transport  1105 session.domain=  open.xf-yun.com  
+[2020/05/28 11:26:15 293] transport  1106 url.host=  open.xf-yun.com  
+[2020/05/28 11:26:15 293] transport  1148 using nameserver ip:  42.62.42.10  
+[2020/05/28 11:26:15 293] transport  1179 try preferred port:  1028  
+[2020/05/28 11:26:15 295] transport  1304 [soc] connect   42.62.42.10  1028  
+[2020/05/28 11:26:15 295] transport  1316 mspsoc.open,prot_type=  tcp  
+[2020/05/28 11:26:15 299] tts        795  TTS_MSG_SSE  
+[2020/05/28 11:26:15 299] tts        767  sse|use cloud  
+[2020/05/28 11:26:15 299] tts_cloud  1305 TTS_MSG_SSE_CLOUD  
+[2020/05/28 11:26:15 299] tts_cloud  853  tts session info  

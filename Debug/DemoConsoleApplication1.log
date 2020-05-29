@@ -1,0 +1,13 @@
+﻿  winrec.c
+  demo.c
+E:\audio_ai\DemoConsoleApplication1\demo.c(114,59): warning C4113: “int (__cdecl *)(const char *,int,int,int,const void *)”和“ivw_ntf_handler”的参数列表不同
+E:\audio_ai\DemoConsoleApplication1\demo.c(177,8): warning C4101: “waitres”: 未引用的局部变量
+E:\audio_ai\DemoConsoleApplication1\demo.c(203,1): warning C4047: “初始化”:“char”与“void *”的间接级别不同
+  micro.c
+E:\audio_ai\DemoConsoleApplication1\micro.c(24,8): warning C4101: “orig”: 未引用的局部变量
+  speech_recognizer.c
+E:\audio_ai\DemoConsoleApplication1\speech_recognizer.c(128,13): warning C4098: “end_sr_on_vad”:“void”函数返回值
+  tts.c
+  正在生成代码...
+  DemoConsoleApplication1.vcxproj -> E:\audio_ai\DemoConsoleApplication1\Debug\DemoConsoleApplication1.exe
+  已复制         1 个文件。

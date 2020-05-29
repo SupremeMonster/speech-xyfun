@@ -1,0 +1,7 @@
+[2020/05/28 10:16:42 668] isr_1conn  668  time from session-begin to session-end:  7797  .  
+[2020/05/28 10:16:42 670] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2020/05/28 10:16:42 670] transport  981  cached ip is confirmed  
+[2020/05/28 10:16:42 670] transport  1332 [soc] disconnect   
+[2020/05/28 10:16:42 670] transport  991  transport clean  
+[2020/05/28 10:16:42 670] isr_1conn  677  [session] got 1th result  
+[2020/05/28 10:16:42 670] isr_1conn  689  time from first audio to first result:  7438  .  
